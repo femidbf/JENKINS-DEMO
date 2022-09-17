@@ -97,7 +97,7 @@ sudo yum install git -y
 sudo yum install maven -y
 sudo wget http://get.jenkins.io/redhat/jenkins-2.346-1.1.noarch.rpm
 sudo rpm -ivh jenkins-2.346-1.1.noarch.rpm
-sudo yum uprade -y
+sudo yum upgrade -y
 sudo yum install jenkins java-11-openjdk-devel -y --nobest
 sudo yum install epel-release java-11-openjdk-devel
 sudo systemctl daemon-reload
